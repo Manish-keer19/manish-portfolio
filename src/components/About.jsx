@@ -62,7 +62,7 @@ const About = () => {
           Windows, Linux, and Mac.  Feel free to explore my work and get
           in touch at{" "}
           <a
-            href="mailto:manish.jiang13@gmail.com"
+            href="mailto:manishkeer530@gmail.com"
             className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
           >
             manishkeer530@gmail.com

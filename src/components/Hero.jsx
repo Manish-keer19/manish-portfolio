@@ -57,7 +57,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
             <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-              <span className="hidden sm:inline">Manish Keer</span>
+              {/* <span className="hidden sm:inline">Manish Keer</span> */}
+              <span className="inline sm:inline">Manish Keer</span>
+
             </span>
           </h1>
 
