@@ -12,11 +12,17 @@ import {
   StarsCanvas,
   Footer,
 } from "./components";
+import CursorCircle from "./components/CursorCircle";
+import AnimatedCursor from "./components/AnimatedCursor";
+import StylishCursor from "./components/StylishCursor";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
+        {/* <CursorCircle/> */}
+        <AnimatedCursor/>
+        {/* <StylishCursor/> */}
         <div className="relative z-20 bg-no-repeat bg-center">
           <Navbar />
           <Hero />
