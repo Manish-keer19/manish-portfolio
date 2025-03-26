@@ -49,8 +49,11 @@ import {
   spring,
   chat_web,
   androidChat,
-  study
+  study,
+  instagram,
+  chat_desktop
 } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -214,32 +217,6 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I can't say enough good things about Jeff. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Jeff is your guy.",
-//     name: "Halley Bennett",
-//     designation: "",
-//     company: "Hack Reactor",
-//     image: "https://randomuser.me/api/portraits/women/4.jpg",
-//   },
-//   {
-//     testimonial:
-//       "Jeff is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
-//     name: "Yishak Wesego",
-//     designation: "",
-//     company: "Hack Reactor",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "I've worked with a lot of engineers over the years, and Jeff is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
-//     name: "Megan Stewart",
-//     designation: "",
-//     company: "Hack Reactor",
-//     image: "https://randomuser.me/api/portraits/women/6.jpg",
-//   },
-// ];
 
 const testimonials = [
   {
@@ -280,8 +257,8 @@ const imageProjects = [
   },
   {
     id: 16,
-    // image: instaclone, // Add the correct image path
-    image: "https://avatars.githubusercontent.com/u/147429908?v=4", // Add the correct image path
+    image: instagram, // Add the correct image path
+     // Add the correct image path
     url: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk", // Update with the actual link
     title: "InstaClone",
     description: 
@@ -307,33 +284,6 @@ const imageProjects = [
   },
 ];
 
-
-// const projects = [
-//   {
-//     name: "SmartRep AI",
-//     description:
-//       "SmartRep AI is an advanced AI chatbot designed to streamline customer interactions, book appointments, process payments, and manage leads. It seamlessly integrates with any website, offering a customizable interface and a suite of powerful features to enhance user experience and business operations.",
-//     tags: [
-//       {
-//         name: "Next.js",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "Neon",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "Typescript",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: smartrep,
-//     source_code_link: "https://github.com/jeffjiang13/smartrep-ai",
-//     liveUrl: "https://jj-smartrep.vercel.app/",
-//   },
-
-// ];
-
 const projects = [
 
   {
@@ -354,7 +304,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "https://avatars.githubusercontent.com/u/147429908?v=4", // Replace with actual image URL
+    image: instagram, // Replace with actual image URL
     source_code_link: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk",
     liveUrl: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk/blob/main/README.md", // Replace with actual URL if deployed
   },
@@ -387,7 +337,7 @@ const projects = [
         },
       ],
       image: chat_web,
-      source_code_link: "https://github.com/Manish-keer19/chat-web-app",
+      source_code_link: web,
       liveUrl: "https://manishchatapp.vercel.app/",
     },
     {
@@ -416,7 +366,7 @@ const projects = [
           color: "orange-text-gradient",
         },
       ],
-      image: "https://avatars.githubusercontent.com/u/147429908?v=4",
+      image:androidChat,
       source_code_link: "https://github.com/Manish-keer19/chatAndroidApp",
       liveUrl: "https://github.com/Manish-keer19/chatAndroidApp/blob/main/README.md",
     },
@@ -446,7 +396,7 @@ const projects = [
           color: "green-text-gradient",
         },
       ],
-      image: "https://avatars.githubusercontent.com/u/147429908?v=4",
+      image: chat_desktop,
       source_code_link: "https://github.com/Manish-keer19/chat-web-app",
       liveUrl: "https://github.com/Manish-keer19/chat-web-app",
     },

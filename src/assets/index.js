@@ -55,14 +55,16 @@ import zapflow from "./zapflow.png";
 import java from "./tech/java.jpg"
 import spring from "./tech/spring.png"
 import chat_web from "./chat_web.png"
-import androidChat from "./androidChat.jpg"
+import androidChat from "./androidChat.png"
 import study from "./study.png"
+import instagram from "./instagram1.png"
+import chat_desktop from "./chat_desktop.png"
 
 
 
 
 export {
-
+ chat_desktop,
   logo,
   backend,
   creator,
@@ -119,5 +121,6 @@ java,
 spring,
 chat_web,
 androidChat,
-study
+study,
+instagram
 };
