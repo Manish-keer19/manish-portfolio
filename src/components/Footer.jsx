@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { LOGO2, manish } from "../assets";
+import { LOGO2, manish, manish1, manish2, manish3 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";
 
@@ -16,9 +16,12 @@ const Footer = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-          
         >
-          <img src={manish} alt="logo" className="w-14 h-14 object-contain rounded-full" />
+          <img
+            src={manish1}
+            alt="logo"
+            className="w-14 h-14 object-contain rounded-full"
+          />
         </Link>
         <p className="text-secondary text-[17px] leading-[30px] text-center select-none">
           {new Date().getFullYear()} &copy; Created by Manish keer. All rights

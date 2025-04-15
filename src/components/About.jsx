@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { manish } from "../assets";
+import { manish, manish1, manish2, manish3 } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -79,7 +79,10 @@ const About = () => {
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
               <img
-                src={manish}
+                // src={manish1}
+                // src={manish2}
+                src={manish3}
+                // src={manish}
                 alt="manish"
                 className="w-full h-full object-contain"
               />
@@ -87,7 +90,7 @@ const About = () => {
           </div>
         </Tilt>
       </div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-60 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

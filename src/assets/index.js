@@ -60,6 +60,9 @@ import study from "./study.png"
 import instagram from "./instagram1.png"
 import chat_desktop from "./chat_desktop.png"
 
+import manish1 from "../assets/m1.jpg"
+import manish2 from "../assets/m2.jpg"
+import manish3 from "../assets/m3.jpg"
 
 
 
@@ -122,5 +125,8 @@ spring,
 chat_web,
 androidChat,
 study,
-instagram
+instagram,
+manish1,
+manish2,
+manish3
 };

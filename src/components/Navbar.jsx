@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, manish } from "../assets";
+import { logo, menu, close, manish,manish1,manish2,manish3 } from "../assets";
 import resume from "/src/manishresume.pdf";
 import { LOGO2 } from "../assets";
 const Navbar = () => {
@@ -44,9 +44,9 @@ const Navbar = () => {
           }}
         >
           <img
-            src={manish}
+            src={manish1}
             alt="logo"
-            className="w-14 h-14 object-contain rounded-lg"
+            className="w-14 h-14 object-contain rounded-full"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             FullStack Developer &nbsp;
