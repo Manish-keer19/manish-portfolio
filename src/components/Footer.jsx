@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { LOGO2, manish, manish1, manish2, manish3 } from "../assets";
+import { LOGO2, manish, manish1, manish2, manish3,logo1,logo2 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";
 
@@ -18,9 +18,10 @@ const Footer = () => {
           }}
         >
           <img
-            src={manish1}
+            // src={logo1}
+            src={logo2}
             alt="logo"
-            className="w-14 h-14 object-contain rounded-full"
+            className="w-14 h-14 object-cover rounded-full"
           />
         </Link>
         <p className="text-secondary text-[17px] leading-[30px] text-center select-none">

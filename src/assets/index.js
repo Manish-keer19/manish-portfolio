@@ -63,6 +63,8 @@ import chat_desktop from "./chat_desktop.png"
 import manish1 from "../assets/m1.jpg"
 import manish2 from "../assets/m2.jpg"
 import manish3 from "../assets/m3.jpg"
+import logo1 from "../assets/logo1.jpg"
+import logo2 from "../assets/logo2.jpg"
 
 
 
@@ -128,5 +130,7 @@ study,
 instagram,
 manish1,
 manish2,
-manish3
+manish3,
+logo1,
+logo2,
 };

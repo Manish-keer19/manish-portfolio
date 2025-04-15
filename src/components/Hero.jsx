@@ -16,33 +16,25 @@ import {
 } from "react-icons/bs";
 
 const Hero = () => {
+ 
+
   const [text, count] = useTypewriter({
     words: [
       "<FullStackDreamer />",
-      "Code, Coffee & Creativity",
-      "MERN to Spring, All in Sync",
-      "Gaming and Debugging, One Life at a Time",
-      "From C++ to Caffeine Shots",
-      "Turning Logic into Art",
-      "Bug Hunter, Code Lover",
-      "Coding Dreams into Reality",
-      "Passion for Pixels & Performance",
-      "When in Doubt, Console.Log",
-      "Breaking Limits, One Commit at a Time",
-      "From Bytes to Beats",
+      "Coding Ideas into Impact",
+      "From MERN to Spring — Seamless Solutions",
+      "Debugging Life, One Line at a Time",
+      "Where Logic Meets Creativity",
+      "Coffee-Fueled Code Sessions",
       "Reacting to Challenges, Natively",
-      "Building Bridges Between Code and Creativity",
-      "Full Stack Grind, 24/7 Mind",
-      "Syntax Slayer & Problem Tamer",
-      "From Binary to Brilliance",
-      "Debugging Life's Glitches",
-      "Coding with Style & Substance",
-      "Breaking Loops, Not Hearts",
+      "Building Beyond the Stack",
+      "Pixels, Performance & Purpose",
+      "Code with Vision, Build with Passion",
     ],
     loop: true,
     delaySpeed: 1000,
   });
-
+  
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
