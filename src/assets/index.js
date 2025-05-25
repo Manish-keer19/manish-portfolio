@@ -38,7 +38,7 @@ import tripguide from "./tripguide.png";
 import movie from "./movie.png"
 import shop from "./shop.png"
 import youtube from "./youtube.png"
-import manish from "./manish.webp"
+import manish from "./manish.jpg"
 import liveLink from "./liveLink.png"
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
@@ -133,4 +133,5 @@ manish2,
 manish3,
 logo1,
 logo2,
+
 };

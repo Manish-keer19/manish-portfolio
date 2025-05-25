@@ -44,7 +44,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={logo1}
+            src={manish}
             // src={logo2}
             alt="logo"
             className="w-14 h-14  rounded-full object-cover"
