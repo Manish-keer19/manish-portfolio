@@ -16,8 +16,6 @@ import {
 } from "react-icons/bs";
 
 const Hero = () => {
- 
-
   const [text, count] = useTypewriter({
     words: [
       "<FullStackDreamer />",
@@ -34,7 +32,7 @@ const Hero = () => {
     loop: true,
     delaySpeed: 1000,
   });
-  
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -51,7 +49,6 @@ const Hero = () => {
             <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
               {/* <span className="hidden sm:inline">Manish Keer</span> */}
               <span className="inline sm:inline">Manish Keer</span>
-
             </span>
           </h1>
 

@@ -21,7 +21,7 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         {/* <CursorCircle/> */}
-        <AnimatedCursor/>
+        {/* <AnimatedCursor/> */}
         {/* <StylishCursor/> */}
         <div className="relative z-20 bg-no-repeat bg-center">
           <Navbar />
