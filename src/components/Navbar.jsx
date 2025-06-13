@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, manish,manish1,manish2,manish3 ,logo1,logo2} from "../assets";
+import {  menu, close, manish} from "../assets";
 import resume from "/src/manishresume.pdf";
-import { LOGO2 } from "../assets";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);

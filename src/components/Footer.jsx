@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { LOGO2, manish, manish1, manish2, manish3,logo1,logo2 } from "../assets";
+import {logo2 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";
 

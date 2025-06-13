@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+
   web,
   javascript,
   typescript,
@@ -13,45 +13,25 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+
   code1,
-  movie,
-  shop,
-  youtube,
+
   python,
-  django,
+
   postgres,
   sql,
   next,
-  vue,
-  liveLink,
-  portfolio15,
-  portfolio16,
-  portfolio17,
-  linktree,
-  tiktok,
-  ig,
-  beeclone,
-  smartrep,
-  matrixai,
-  zapflow,
-  notable,
+
   java,
   spring,
   chat_web,
   androidChat,
   study,
   instagram,
-  chat_desktop
+  chat_desktop,
+  betapp
 } from "../assets";
 
 export const navLinks = [
@@ -247,6 +227,14 @@ const testimonials = [
 
 const imageProjects = [
   {
+    id: 19,
+    image: betapp, // Add the correct image path
+    url: "https://manish-bet-app.vercel.app/", // Live link
+    title: "Manish's Bet App",
+    description:
+      "Manish's Bet App is a real-time multiplayer betting platform where users can create secure accounts, manage wallet deposits and withdrawals, and participate in fast-paced games like Head or Tail, Wheel Spin, and Forex Trading. Featuring 1-minute live rounds, real-time result updates via WebSocket, and a sleek, responsive UI built on the MERN stack, it delivers a thrilling and seamless user experience.",
+  },
+  {
     id: 15,
     // image: manishchatapp, // Add the correct image path
     image: chat_web, // Add the correct image path
@@ -258,33 +246,63 @@ const imageProjects = [
   {
     id: 16,
     image: instagram, // Add the correct image path
-     // Add the correct image path
+    // Add the correct image path
     url: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk", // Update with the actual link
     title: "InstaClone",
-    description: 
+    description:
       "InstaClone is a social media platform inspired by Instagram, developed using React Native CLI. It allows users to create and share posts, follow other users, like and comment on posts, and update their profiles. The app is designed with a scalable backend, ensuring smooth performance even under high user traffic. It includes Firebase for user authentication and data storage, ensuring secure and fast handling of user data.",
   },
   {
     id: 17,
     image: androidChat, // Add the correct image path
-  
+
     url: "https://github.com/Manish-keer19/chatAndroidApp", // Update with the actual link
     title: "Android Chat App",
-    description: 
+    description:
       "The Android Chat App is a real-time chat application built using React Native and Spring Boot. It supports secure login via JWT and OAuth2, allowing users to communicate instantly with end-to-end encryption. The app also includes media sharing (images, videos), push notifications, and a clean, responsive UI optimized for mobile devices. It leverages Firebase for cloud messaging and real-time data synchronization.",
   },
   {
     id: 18,
     image: study, // Add the correct image path
-  
+
     url: "https://manishstudyportal.vercel.app/", // Update with the actual link
     title: "StudyNotion",
-    description: 
+    description:
       "StudyNotion is a comprehensive online learning platform developed using the MERN stack. It allows instructors to create and manage courses, while students can enroll, track progress, and engage in discussions. The platform supports secure payment gateways for course purchasing and includes features like video streaming, interactive quizzes, and peer-to-peer messaging. The UI is designed for a smooth learning experience across web and mobile devices.",
   },
+
 ];
 
 const projects = [
+
+
+
+  {
+    name: "Manish's Bet App",
+    description:
+      "Manish's Bet App is a dynamic real-time betting platform offering multiple fast-paced games including Head or Tail, Wheel Spin, and Forex Trading. Users can create accounts, manage wallet transactions (deposit & withdraw), and participate in 1-minute live games. Built with WebSocket for instant results and a clean, mobile-friendly UI, the app ensures a secure and engaging betting experience.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebSocket",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: betapp, // Replace with actual image path
+    source_code_link: "https://github.com/Manish-keer19/Betting_App_Frontend",
+    liveUrl: "https://manish-bet-app.vercel.app/",
+  },
 
   {
     name: "InstaClone",
@@ -308,121 +326,123 @@ const projects = [
     source_code_link: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk",
     liveUrl: "https://github.com/Manish-keer19/Full_Stack-InstaClone-apk/blob/main/README.md", // Replace with actual URL if deployed
   },
-  
-  
-    {
-      name: "Manish Chat App (Web)",
-      description:
-        "Manish Chat App is a real-time web-based messaging app built using Spring Boot and React. It supports secure authentication with JWT and OAuth2 (Google and GitHub), and allows users to send messages, share media, and reset passwords.",
-      tags: [
-        {
-          name: "Spring Boot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JWT",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "OAuth2",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "green-text-gradient",
-        },
-      ],
-      image: chat_web,
-      source_code_link: web,
-      liveUrl: "https://manishchatapp.vercel.app/",
-    },
-    {
-      name: "Manish Chat App (Android)",
-      description:
-        "Manish Chat App is a real-time Android messaging app built using React Native and Spring Boot. It includes features like JWT-based authentication, OAuth2 login (Google and GitHub), media sharing, and password reset.",
-      tags: [
-        {
-          name: "Spring Boot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "React Native",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JWT",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "OAuth2",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "orange-text-gradient",
-        },
-      ],
-      image:androidChat,
-      source_code_link: "https://github.com/Manish-keer19/chatAndroidApp",
-      liveUrl: "https://github.com/Manish-keer19/chatAndroidApp/blob/main/README.md",
-    },
-    {
-      name: "Manish Chat App (Desktop)",
-      description:
-        "Manish Chat App is a real-time desktop messaging app built using Electron.js, Spring Boot, and React. It offers cross-platform support (Windows, Linux, Mac), JWT-based authentication, OAuth2 login, and media sharing.",
-      tags: [
-        {
-          name: "Spring Boot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Electron.js",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "JWT",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "OAuth2",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "green-text-gradient",
-        },
-      ],
-      image: chat_desktop,
-      source_code_link: "https://github.com/Manish-keer19/chat-web-app",
-      liveUrl: "https://github.com/Manish-keer19/chat-web-app",
-    },
-    {
-      name: "StudyNotion",
-      description:
-        "StudyNotion is an online learning platform that allows users to create, manage, and enroll in courses. It features secure authentication, a smooth user interface, and course progress tracking.",
-      tags: [
-        {
-          name: "MERN Stack",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "green-text-gradient",
-        },
-      ],
-      image: study, // Replace with actual image URL
-      source_code_link: "https://github.com/Manish-keer19/StudyNotion-Full-Stack-Project",
-      liveUrl: "https://manishstudyportal.vercel.app/", // Replace with actual URL if deployed
-    }
-  
+
+
+
+
+  {
+    name: "Manish Chat App (Web)",
+    description:
+      "Manish Chat App is a real-time web-based messaging app built using Spring Boot and React. It supports secure authentication with JWT and OAuth2 (Google and GitHub), and allows users to send messages, share media, and reset passwords.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OAuth2",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chat_web,
+    source_code_link: web,
+    liveUrl: "https://manishchatapp.vercel.app/",
+  },
+  {
+    name: "Manish Chat App (Android)",
+    description:
+      "Manish Chat App is a real-time Android messaging app built using React Native and Spring Boot. It includes features like JWT-based authentication, OAuth2 login (Google and GitHub), media sharing, and password reset.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OAuth2",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: androidChat,
+    source_code_link: "https://github.com/Manish-keer19/chatAndroidApp",
+    liveUrl: "https://github.com/Manish-keer19/chatAndroidApp/blob/main/README.md",
+  },
+  {
+    name: "Manish Chat App (Desktop)",
+    description:
+      "Manish Chat App is a real-time desktop messaging app built using Electron.js, Spring Boot, and React. It offers cross-platform support (Windows, Linux, Mac), JWT-based authentication, OAuth2 login, and media sharing.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Electron.js",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OAuth2",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chat_desktop,
+    source_code_link: "https://github.com/Manish-keer19/chat-web-app",
+    liveUrl: "https://github.com/Manish-keer19/chat-web-app",
+  },
+  {
+    name: "StudyNotion",
+    description:
+      "StudyNotion is an online learning platform that allows users to create, manage, and enroll in courses. It features secure authentication, a smooth user interface, and course progress tracking.",
+    tags: [
+      {
+        name: "MERN Stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: study, // Replace with actual image URL
+    source_code_link: "https://github.com/Manish-keer19/StudyNotion-Full-Stack-Project",
+    liveUrl: "https://manishstudyportal.vercel.app/", // Replace with actual URL if deployed
+  }
+
 ];
 
 export {

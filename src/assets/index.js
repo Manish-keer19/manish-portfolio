@@ -1,4 +1,4 @@
-import logo from "./logo3.png";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -40,10 +40,6 @@ import shop from "./shop.png"
 import youtube from "./youtube.png"
 import manish from "./manish.jpg"
 import liveLink from "./liveLink.png"
-import portfolio15 from "./portfolio15.png"
-import portfolio16 from "./portfolio16.png"
-import portfolio17 from "./portfolio17.png"
-import LOGO2 from "./LOGO2.webp";
 import tiktok from "./tiktok.png";
 import ig from "./ig.png";
 import linktree from "./linktree.png";
@@ -60,17 +56,15 @@ import study from "./study.png"
 import instagram from "./instagram1.png"
 import chat_desktop from "./chat_desktop.png"
 
-import manish1 from "../assets/m1.jpg"
-import manish2 from "../assets/m2.jpg"
-import manish3 from "../assets/m3.jpg"
 import logo1 from "../assets/logo1.jpg"
 import logo2 from "../assets/logo2.jpg"
+
+import betapp from "../assets/bet_app.png";
 
 
 
 export {
  chat_desktop,
-  logo,
   backend,
   creator,
   mobile,
@@ -110,10 +104,6 @@ export {
   next,
   vue,
   liveLink,
-  portfolio15,
-  portfolio16,
-  portfolio17,
-  LOGO2,
   tiktok,
   ig,
   linktree,
@@ -128,10 +118,8 @@ chat_web,
 androidChat,
 study,
 instagram,
-manish1,
-manish2,
-manish3,
 logo1,
 logo2,
+betapp
 
 };
